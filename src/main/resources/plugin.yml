@@ -1,0 +1,17 @@
+name: RankDisguise
+main: com.yourname.rankdisguise.RankDisguisePlugin
+version: 1.0
+api-version: 1.18
+commands:
+  rankdisguise:
+    description: Disguise a player's rank
+    usage: /rankdisguise <username> <rank>
+    permission: rankdisguise.use
+  unrankdisguise:
+    description: Remove a player's rank disguise
+    usage: /unrankdisguise <username>
+    permission: rankdisguise.use
+permissions:
+  rankdisguise.use:
+    description: Allows the use of the rankdisguise command
+    default: op
